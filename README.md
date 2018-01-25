@@ -8,7 +8,3 @@ A library project template
 ### Build dist version
 
 > npm run build
-
-### Notice
-
-- default webpack entry is: `src/*.js`, if you need, please edit `webpack.config.js`
