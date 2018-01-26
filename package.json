@@ -2,12 +2,15 @@
   "name": "xp-library",
   "version": "1.0.0",
   "description": "A JavaScript utility library",
-  "license": "MIT",
   "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "license": "MIT",
   "scripts": {
     "prepublishOnly": "npm run build",
     "dev": "rollup -c -w",
-    "build": "rollup -c"
+    "build:umd": "rollup -c",
+    "build:es": "rollup -c rollup.config.es.js",
+    "build": "npm run build:umd && npm run build:es"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
