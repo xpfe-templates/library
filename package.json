@@ -1,7 +1,7 @@
 {
-  "name": "xp-library",
+  "name": "{{projectName}}",
   "version": "1.0.0",
-  "description": "A JavaScript utility library",
+  "description": "A JavaScript utility library named {{projectName}}",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "license": "MIT",
